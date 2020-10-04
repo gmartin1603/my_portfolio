@@ -1,8 +1,8 @@
 import React from 'react';
 import Project from '../Project/Project';
-import Amazon from '../Amazon_Clone.png'
-import toolbar from '../Responsive_Toolbar.png'
-import spotify from '../Spotify_Clone.png'
+import Amazon from '../Images/Amazon_Clone.png'
+import toolbar from '../Images/Responsive_Toolbar.png'
+import spotify from '../Images/Spotify_Clone.png'
 import './Projects.css'
 
 function Projects(props) {

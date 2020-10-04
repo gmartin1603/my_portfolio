@@ -5,9 +5,9 @@ import FullProject from './FullProject/FullProject';
 import Landing from './Landing/Landing';
 import Projects from './Projects/Projects';
 import Tech from './Tech/Tech';
-import Amazon from './Amazon_Clone.png'
-import toolbar from './Responsive_Toolbar.png'
-import spotify from './Spotify_Clone.png'
+import Amazon from './Images/Amazon_Clone.png'
+import toolbar from './Images/Responsive_Toolbar.png'
+import spotify from './Images/Spotify_Clone.png'
 import About from './About/About';
 import ToggleButton from './ToggleButton/ToggleButton';
 

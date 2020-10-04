@@ -1,7 +1,7 @@
 import React from 'react';
 import './Landing.css'
-import Logo from '../logo_transparent.png'
-import george from '../me.jpg'
+import Logo from '../Images/logo_transparent.png'
+import george from '../Images/me.jpg'
 
 function Landing(props) {
     return (
