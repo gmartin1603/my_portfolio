@@ -1,0 +1,43 @@
+.projects {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    overflow: auto;
+}
+
+.projects__title {
+    width: 100%;
+}
+
+.projects__title > h2 {
+    font-size: 40px;
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .projects {
+        height: fit-content;
+    }
+
+    .projects__title > h2 {
+        font-size: 20px;
+        padding: 30px;
+        color: whitesmoke;
+        text-align: center;
+    }
+}

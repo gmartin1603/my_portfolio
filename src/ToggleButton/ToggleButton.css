@@ -1,0 +1,25 @@
+.toggleButton {
+    margin-top: 100px;
+    width: 300px;
+    z-index: 55;
+    position: fixed;
+}
+
+.toggleButton > button {
+    color: whitesmoke;
+    font-weight: 800;
+    padding: 10px;
+    border: none;
+    background-color: purple;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.toggleButton > button:hover {
+    border: none;
+    background: radial-gradient(grey, purple);
+    transition: 200ms ease-in-out;
+}
+

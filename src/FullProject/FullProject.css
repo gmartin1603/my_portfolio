@@ -1,0 +1,32 @@
+.fullProject {
+    height: 100vh;
+    color: whitesmoke;
+    background: linear-gradient(to right,purple, black);
+}
+
+.fullProject__title {
+ text-align: center;
+}
+
+.fullProject__title > h1 {
+    padding: 30px;
+}
+
+.fullProject__description {
+    margin: 0 50px;
+}
+
+.fullProject__url {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.fullProject__url > p > a {
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.fullProject__gif > img {
+    width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+.sideDrawer {
+    background-color: rgb(139,0,139, 0.4);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-out;
+}
+
+.sideDrawer_open {
+    background-color: rgb(139,0,139, 0.4);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: translateX(0);
+    transition: 0.4s ease-in;
+}
+
+.sideDrawer__row {
+    display: flex;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.sideDrawer__row > a {
+    color: whitesmoke;
+    text-decoration: whitesmoke;
+    margin-left: 10px;
+}
+
+.sideDrawer__row > a:hover {
+    text-decoration: underline;
+}
