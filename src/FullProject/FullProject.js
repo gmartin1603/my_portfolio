@@ -18,7 +18,7 @@ function FullProject({title, description, gif, url}) {
                 {url? 
                 <div className="fullProject__url">
                     <p>Hosted at: 
-                    <a href={url} target="_blank">
+                    <a href={url} target="_blank" rel="noopener noreferrer">
                     {url}
                     </a>
                     </p>

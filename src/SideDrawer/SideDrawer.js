@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './SideDrawer.css'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
@@ -19,15 +19,15 @@ function SideDrawer({ open }) {
             </div>
             <div className="sideDrawer__row">
                 <FacebookIcon/>
-                <a href="https://www.facebook.com/constcountryCoder" target="_blank">Country Coder on Facebook</a>
+                <a href="https://www.facebook.com/constcountryCoder" target="_blank" rel="noopener noreferrer">Country Coder on Facebook</a>
             </div>
             <div className="sideDrawer__row">
                 <InstagramIcon/>
-                <a href="https://www.instagram.com/country_coder/?hl=en" target="_blank">country_coder on Instagram</a>
+                <a href="https://www.instagram.com/country_coder/?hl=en" target="_blank" rel="noopener noreferrer">country_coder on Instagram</a>
             </div>
             <div className="sideDrawer__row">
                 <LinkedInIcon/>
-                <a href="https://www.linkedin.com/in/george-martin-ab003b1b8/" target="_blank">George Martin on LinkedIn</a>
+                <a href="https://www.linkedin.com/in/george-martin-ab003b1b8/" target="_blank" rel="noopener noreferrer">George Martin on LinkedIn</a>
             </div>
         </div>
     );

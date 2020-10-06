@@ -8,8 +8,10 @@ import Tech from './Tech/Tech';
 import Amazon from './Images/Amazon_Clone.png'
 import toolbar from './Images/Responsive_Toolbar.png'
 import spotify from './Images/Spotify_Clone.png'
+import meal from './Images/meal_planner.png'
 import About from './About/About';
 import ToggleButton from './ToggleButton/ToggleButton';
+import jsPlayground from './Images/JSPlayground.png'
 
 function App() {
   return (
@@ -40,6 +42,26 @@ function App() {
             gif={toolbar}
             url="https://toolbar-a972f.firebaseapp.com/"
             description="This React component is fully mobile responsive. The nav links are replaced by a hamburger icon with animated side drawer on mobile devices."
+            />
+          </Route>
+          <Route path="/JS Playground">
+            <FullProject 
+            title="JavaScript Playground"
+            gif={jsPlayground}
+            url="https://js-playground-f718a.web.app/"
+            description="This one I built for Clever Programmers, Profit with JavaScript course. It is traditional HTML, CSS, and JavaScript.
+            I always tell people how much fun it was to build this. Building this introduced me to flex box, among other CSS tricks, as well as 
+            helping me understand API calls better."
+            />
+          </Route>
+          <Route path="/Meal Planner">
+            <FullProject 
+            title="Meal Planner"
+            gif={meal}
+            url="https://meal-planner-7a232.web.app/"
+            description="This app is one of my own design. Its still under construction but feel free to create an account and save a recipe. 
+            the app will save your username and password using firebase auth, and recipes using firebase cloud firestore. Not mobile responsive yet, just computers and tablets.
+            thanks for looking!"
             />
           </Route>
           <Route path="/">

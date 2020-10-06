@@ -3,6 +3,8 @@ import Project from '../Project/Project';
 import Amazon from '../Images/Amazon_Clone.png'
 import toolbar from '../Images/Responsive_Toolbar.png'
 import spotify from '../Images/Spotify_Clone.png'
+import meal from '../Images/meal_planner.png'
+import jsPlayground from '../Images/JSPlayground.png'
 import './Projects.css'
 
 function Projects(props) {
@@ -14,7 +16,9 @@ function Projects(props) {
             <div className="projects__list">
                 <Project title="Amazon Clone" image={Amazon}/>
                 <Project title="Responsive Toolbar" image={toolbar}/>
+                <Project title="JS Playground" image={jsPlayground}/>
                 <Project title="Spotify Clone" image={spotify}/>
+                <Project title="Meal Planner" image={meal}/>
             </div>
         </div>
     );

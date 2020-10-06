@@ -19,6 +19,7 @@
 
 .toggleButton > button:hover {
     border: none;
+    color: black;
     background: radial-gradient(grey, purple);
     transition: 200ms ease-in-out;
 }
