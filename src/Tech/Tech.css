@@ -1,7 +1,7 @@
 .tech {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     justify-content: center;
     background: radial-gradient(purple, black);

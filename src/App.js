@@ -12,6 +12,8 @@ import meal from './Images/meal_planner.png'
 import About from './About/About';
 import ToggleButton from './ToggleButton/ToggleButton';
 import jsPlayground from './Images/JSPlayground.png'
+import netflix from './Images/Netflix-clone.png'
+
 
 function App() {
   return (
@@ -31,7 +33,7 @@ function App() {
             <FullProject 
             title="Spotify Clone"
             gif={spotify}
-            url=""
+            url="https://spotify-clone-647d8.firebaseapp.com/#"
             description="This Spotify clone built with react utilizes the Spotify API for authorization and playlist fetching. 
             Currently has no play functionallity. React context API also utilized."
             />
@@ -52,6 +54,14 @@ function App() {
             description="This one I built for Clever Programmers, Profit with JavaScript course. It is traditional HTML, CSS, and JavaScript.
             I always tell people how much fun it was to build this. Building this introduced me to flex box, among other CSS tricks, as well as 
             helping me understand API calls better."
+            />
+          </Route>
+          <Route path="/Netflix Clone">
+            <FullProject 
+            title="Netflix Clone"
+            gif={netflix}
+            url="https://netflix-clone-398bb.web.app/"
+            description="This React app gathers the movie images and title from tmdb api. Still working on getting the movie trailer to play on click."
             />
           </Route>
           <Route path="/Meal Planner">

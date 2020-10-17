@@ -22,12 +22,11 @@
     flex-wrap: wrap;
     margin-top: 50px;
     width: 100%;
-    
 }
 
 .landing__images > img{
     width: 15%;
-    /* height: 40%; */
+    max-height: 200px;
     object-fit: contain;
     background: radial-gradient(purple, black);
     border-radius: 50%;
@@ -39,6 +38,7 @@
     margin-top: 100px;
     margin-bottom: 40px;
 }
+
 
 @media (max-width: 600px) {
 

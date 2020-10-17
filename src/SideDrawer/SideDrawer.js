@@ -4,6 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function SideDrawer({ open }) {
     let className = "sideDrawer"
@@ -28,6 +29,10 @@ function SideDrawer({ open }) {
             <div className="sideDrawer__row">
                 <LinkedInIcon/>
                 <a href="https://www.linkedin.com/in/george-martin-ab003b1b8/" target="_blank" rel="noopener noreferrer">George Martin on LinkedIn</a>
+            </div>
+            <div className="sideDrawer__row">
+                <GitHubIcon/>
+                <a href="https://github.com/gmartin1603">George Martin on GitHub</a>
             </div>
         </div>
     );
