@@ -26,7 +26,6 @@
 
 .landing__images > img{
     width: 15%;
-    max-height: 200px;
     object-fit: contain;
     background: radial-gradient(purple, black);
     border-radius: 50%;
